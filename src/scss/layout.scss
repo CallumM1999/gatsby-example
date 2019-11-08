@@ -1,0 +1,24 @@
+@import "./colours";
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: $color-red;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+
+  &:hover {
+    background-color: hsl(46, 100%, 50%);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
