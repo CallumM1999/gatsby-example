@@ -14,6 +14,12 @@ export default () => (
       <li>
         <Link to="/products/">Products</Link>
       </li>
+      <li>
+        <Link to="/examples/">Examples</Link>
+      </li>
+      <li>
+        <Link to="/tours/">Tours</Link>
+      </li>
     </ul>
   </nav>
 )
